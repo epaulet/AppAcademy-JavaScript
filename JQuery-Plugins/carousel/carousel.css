@@ -1,0 +1,32 @@
+div.carousel {
+  height: 250px;
+  width: 100px;
+  background-color: red;
+}
+
+div.items {
+  height: 100%;
+  width: 100%;
+  background-color: thistle;
+  position: relative;
+}
+
+div.items img:not(.active) {
+  display: none;
+}
+
+.active.left {
+  position: absolute;
+  left: -100%;
+}
+
+.active.right {
+  position: absolute;
+  left: 100%;
+}
+
+.active {
+  position:absolute;
+  left: 0%;
+  transition: left 0.5s;
+}

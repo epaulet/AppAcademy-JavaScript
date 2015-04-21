@@ -1,0 +1,107 @@
+body, html, .backdrop{
+  height: 100%;
+}
+
+.backdrop {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+#new-board-form-container, #new-list-form-container {
+  border: 1px solid;
+  border-color: #cccccc;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+#board-index-header {
+  left: -40px;
+}
+
+.board-index-item {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 84px;
+}
+
+.list-index-item {
+  background-color: #E2E4E6;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.card-index {
+  margin-bottom: 5px;
+}
+
+.card-index-item {
+  width: 100%;
+  text-align: left;
+}
+
+#new-list-link {
+  color: #B7D1E1;
+  background-color: #0C669A;
+  display: block;
+  height: 40px;
+  line-height: 30px;
+  border-radius: 3px;
+  margin: -5px;
+  padding: 5px;
+}
+
+#new-list-link:hover {
+  text-decoration: none;
+  background-color: #0A517B;
+}
+
+.new-card-link {
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: -5px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 5px;
+}
+
+.new-card-link:hover {
+  background-color: #cdd2d4;
+}
+
+#main {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100%;
+  margin: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+}
+
+#main.board-wrapper {
+  background-color: #0E74AF;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#board-header {
+  color: white;
+}
+
+.list-title {
+  float: left;
+}
+
+.list-delete {
+  float: right;
+  cursor: pointer;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: block;
+}
